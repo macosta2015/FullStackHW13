@@ -31,6 +31,8 @@ const init = async () => {
     console.log('Sucessful connection to the database');
 
     app.listen(PORT, () => console.log('Express web server now listening'));
+    console.log(`App listening on port ${PORT}!`);
+
   } catch (err) {
     console.log(err);
   }
