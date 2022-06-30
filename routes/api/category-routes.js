@@ -3,7 +3,7 @@ const { Category, Product } = require('../../models');
 
 // The `/api/categories` endpoint
 
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
   try {
     const categoryData = await Category.findAll({
       include: [{model: Product}]
@@ -18,7 +18,7 @@ router.get('/', (req, res) => {
 
 // find one category by its `id` value
 // be sure to include its associated Products
-router.get('/:id', (req, res) => {
+router.get('/:id', async (req, res) => {
   try{
     const categoryData = await Category.findByPk(req.params.id,{
       include: [{model: Product}]
@@ -56,7 +56,8 @@ router.put('/:id', async (req, res) => {
         id: req.params.id,
       },
     }
-    return res.json(categoryData);
+  );
+  return res.json(categoryData);
   });
 
 // delete a category by its `id` value
