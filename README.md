@@ -2,6 +2,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+Databases are essentiak for Backend developers. In it we are able to have all of our data stored. In this work we are goin to use MySQL Workbench in order to interact with our data.
+
 ## Walkthrough videos
 
 ### Populating the database with seeds:
