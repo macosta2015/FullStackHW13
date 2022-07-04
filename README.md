@@ -1,5 +1,6 @@
 
-
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
 ## Walkthrough videos
 
