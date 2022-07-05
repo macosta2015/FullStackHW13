@@ -12,7 +12,9 @@ We are going to create tables and seeding the information.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [Next.js](https://nextjs.org/)
+* [MySql.js]([https://nextjs.org/](https://www.mysql.com/products/workbench/))
+* [MySql]([https://nextjs.org/](https://www.mysql.com/products/workbench/))
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
